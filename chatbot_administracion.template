@@ -1,0 +1,9 @@
+{% block %}
+    {% client %}(Cuentame acerca de ) (?P<query>.*){% endclient %}
+    {% response %}{% call whoIs: %query %}{% endresponse %}
+{% endblock %}
+
+{% block %}
+    {% client %}(tienes) (?P<query>.*){% endclient %}
+    {% response %}{% call getproduct: %query %}{% endresponse %}
+{% endblock %}

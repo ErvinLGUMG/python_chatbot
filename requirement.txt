@@ -1,0 +1,3 @@
+wikipedia
+chatbotAI
+python-amazon-simple-product-api
